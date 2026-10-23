@@ -6,22 +6,8 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Atelier North — Architecture, Interiors & Landscape',
   description: 'Atelier North is an independent design studio shaping considered environments for modern living.',
-  generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/icon.svg',
     apple: '/apple-icon.png',
   },
 }

@@ -64,14 +64,16 @@ components/
     button.tsx      Shared button primitive
 lib/
   utils.ts          Shared class-name utility
-public/             Icons, logos, and other static assets
+public/
+  icon.svg          Atelier North architectural favicon
+  apple-icon.png    Atelier North Apple touch icon
 ```
 
 ## Customization
 
 - Edit the page sections, project descriptions, service names, and image URLs in `app/page.tsx`.
 - Adjust colors, typography, spacing, breakpoints, and animation timing in `app/globals.css`.
-- Update the document title, description, and icons in `app/layout.tsx`.
+- Update the document title, description, and icon paths in `app/layout.tsx`; the current brand icons are in `public/`.
 - Project and hero photography currently use externally hosted Unsplash image URLs. Replace them with approved assets if you need local hosting or different imagery.
 
 ## Forms and deployment
